@@ -7,19 +7,30 @@
 // } )
 
 
-const os = require('os');
-let platform = os.platform();
-let arch = os.arch();
-let homedir = os.homedir();
-let networkInterfaces = os.networkInterfaces();
-let uptime = os.uptime()
+// const os = require('os');
+// let platform = os.platform();
+// let arch = os.arch();
+// let homedir = os.homedir();
+// let networkInterfaces = os.networkInterfaces();
+// let uptime = os.uptime()
 
-console.log(
-    `Операционная система: ${platform},
-Разрядность ${arch},
- Домашняя директория ${homedir},
- Данные интернет провадера: ${networkInterfaces}
- Время работы системы: ${uptime}`);
+// console.log(
+//     `Операционная система: ${platform},
+// Разрядность ${arch},
+//  Домашняя директория ${homedir},
+//  Данные интернет провадера: ${networkInterfaces}
+//  Время работы системы: ${uptime}`);
+
+//Добавление собственного модуля
+const math = require('./math');
+let resultMath = math.plus(4,5);
+console.log(resultMath);
+
+
+
+
+
+
 
 
 
