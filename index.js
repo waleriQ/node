@@ -6,7 +6,7 @@
 //     console.log(`Result: ${response}`);
 // } )
 
-
+// ВСТРОЕННЫЙ МОДУЛЬ
 // const os = require('os');
 // let platform = os.platform();
 // let arch = os.arch();
